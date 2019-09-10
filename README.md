@@ -1,2 +1,2 @@
-# show_and_tell
-Create interactive command line demos and documentation 
+# Show and Tell
+Create interactive command line demos and documentation

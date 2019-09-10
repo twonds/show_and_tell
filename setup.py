@@ -7,5 +7,7 @@ setup(name='show_and_tell',
       description='Interactive command line demos',
       author='Christopher Zorn',
       author_email='christopher.zorn@gmail.com',
+      depends=['pyyaml'],
+      scripts=['scripts/show_and_tell'],
       packages=['show_and_tell'],
      )

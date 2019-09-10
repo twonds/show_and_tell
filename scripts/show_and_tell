@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+import argparse
+
+from show_and_tell import demo
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Run an interactive document')
+    parser.add_argument('files', type=str, nargs='+',
+                        help="The yaml files containing the document steps")
+    args = parser.parse_args()
+
+    demo_runner = demo.Demo()
+    demo_runner.run(args.files)
+
+
